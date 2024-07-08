@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #0d192b;
+  display: flex;
+  justify-content: center; /* توسيط أفقي */
+  align-items: center; /* توسيط عمودي */
+  height: 100vh; /* جعل ارتفاع الصفحة بالكامل */
+  margin: 0;
+}
+
+@font-face{
+    font-family: "Outfit";
+    src: url('https://fonts.google.com/specimen/Outfit') format('truetype');
+}
+
+section {
+  width: 300px;  
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #14253d;
+  border-radius: 10px;
+  font-family: 'Outfit', sans-serif;  
+  font-size: 18px;
+  color: white;
+  box-shadow: 0 4px 80px rgba(0, 0, 0, 0.3)
+}
+
+p,div {
+  display: inline-block;
+}
+
+header img{
+    margin: 20px;
+    width: 260px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+header h3, header p{
+    margin: 0 20px 20px 20px; 
+}
+
+header p {
+    color: #8bacda;
+}
+
+.ethereum img {
+    margin-left: 20px;
+}
+
+.clock {
+    margin-left: 50px;
+    color: #8bacda;
+    font-size: 18;
+}
+
+.ethereum{
+    color: #00fff7;
+}
+
+hr{
+    width: 260px;
+    margin: 10px 20px 10px 20px;
+    border: none;
+    color: #2f415b;
+    height: 2px;
+    background-color: #2f415b;
+}
+
+footer img{
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+footer {
+    align-items: center;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+footer p {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+footer p span{
+    color: #8bacda;
+}
